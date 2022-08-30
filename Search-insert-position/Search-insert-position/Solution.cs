@@ -15,11 +15,7 @@
             }
             else if (first == last)
             {
-                if (key < array[first])
-                {
-                    return first;
-                }
-                else if (key == array[last])
+                if (key < array[first] || key == array[last])
                 {
                     return last;
                 }
